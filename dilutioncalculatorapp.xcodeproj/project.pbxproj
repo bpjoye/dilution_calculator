@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93352DB20AC8211002BC3D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93352DA20AC8211002BC3D0 /* AppDelegate.swift */; };
+		E93352DD20AC8211002BC3D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93352DC20AC8211002BC3D0 /* ViewController.swift */; };
+		E93352DF20AC8212002BC3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93352DE20AC8212002BC3D0 /* Assets.xcassets */; };
+		E93352E220AC8212002BC3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93352E020AC8212002BC3D0 /* Main.storyboard */; };
+		E93352EE20AC8213002BC3D0 /* dilutioncalculatorappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93352ED20AC8213002BC3D0 /* dilutioncalculatorappTests.swift */; };
+		E93352F920AC8213002BC3D0 /* dilutioncalculatorappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93352F820AC8213002BC3D0 /* dilutioncalculatorappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E93352EA20AC8213002BC3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E93352CF20AC8211002BC3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93352D620AC8211002BC3D0;
+			remoteInfo = dilutioncalculatorapp;
+		};
+		E93352F520AC8213002BC3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E93352CF20AC8211002BC3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93352D620AC8211002BC3D0;
+			remoteInfo = dilutioncalculatorapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E93352D720AC8211002BC3D0 /* Dilution Calcultor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dilution Calcultor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93352DA20AC8211002BC3D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E93352DC20AC8211002BC3D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E93352DE20AC8212002BC3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E93352E120AC8212002BC3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E93352E320AC8212002BC3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93352E420AC8213002BC3D0 /* dilutioncalculatorapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dilutioncalculatorapp.entitlements; sourceTree = "<group>"; };
+		E93352E920AC8213002BC3D0 /* dilutioncalculatorappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dilutioncalculatorappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93352ED20AC8213002BC3D0 /* dilutioncalculatorappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dilutioncalculatorappTests.swift; sourceTree = "<group>"; };
+		E93352EF20AC8213002BC3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93352F420AC8213002BC3D0 /* dilutioncalculatorappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dilutioncalculatorappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93352F820AC8213002BC3D0 /* dilutioncalculatorappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dilutioncalculatorappUITests.swift; sourceTree = "<group>"; };
+		E93352FA20AC8213002BC3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93352D420AC8211002BC3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352E620AC8213002BC3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352F120AC8213002BC3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93352CE20AC8211002BC3D0 = {
+			isa = PBXGroup;
+			children = (
+				E93352D920AC8211002BC3D0 /* dilutioncalculatorapp */,
+				E93352EC20AC8213002BC3D0 /* dilutioncalculatorappTests */,
+				E93352F720AC8213002BC3D0 /* dilutioncalculatorappUITests */,
+				E93352D820AC8211002BC3D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E93352D820AC8211002BC3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93352D720AC8211002BC3D0 /* Dilution Calcultor.app */,
+				E93352E920AC8213002BC3D0 /* dilutioncalculatorappTests.xctest */,
+				E93352F420AC8213002BC3D0 /* dilutioncalculatorappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93352D920AC8211002BC3D0 /* dilutioncalculatorapp */ = {
+			isa = PBXGroup;
+			children = (
+				E93352DA20AC8211002BC3D0 /* AppDelegate.swift */,
+				E93352DC20AC8211002BC3D0 /* ViewController.swift */,
+				E93352DE20AC8212002BC3D0 /* Assets.xcassets */,
+				E93352E020AC8212002BC3D0 /* Main.storyboard */,
+				E93352E320AC8212002BC3D0 /* Info.plist */,
+				E93352E420AC8213002BC3D0 /* dilutioncalculatorapp.entitlements */,
+			);
+			path = dilutioncalculatorapp;
+			sourceTree = "<group>";
+		};
+		E93352EC20AC8213002BC3D0 /* dilutioncalculatorappTests */ = {
+			isa = PBXGroup;
+			children = (
+				E93352ED20AC8213002BC3D0 /* dilutioncalculatorappTests.swift */,
+				E93352EF20AC8213002BC3D0 /* Info.plist */,
+			);
+			path = dilutioncalculatorappTests;
+			sourceTree = "<group>";
+		};
+		E93352F720AC8213002BC3D0 /* dilutioncalculatorappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E93352F820AC8213002BC3D0 /* dilutioncalculatorappUITests.swift */,
+				E93352FA20AC8213002BC3D0 /* Info.plist */,
+			);
+			path = dilutioncalculatorappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93352D620AC8211002BC3D0 /* dilutioncalculatorapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93352FD20AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorapp" */;
+			buildPhases = (
+				E93352D320AC8211002BC3D0 /* Sources */,
+				E93352D420AC8211002BC3D0 /* Frameworks */,
+				E93352D520AC8211002BC3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dilutioncalculatorapp;
+			productName = dilutioncalculatorapp;
+			productReference = E93352D720AC8211002BC3D0 /* Dilution Calcultor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E93352E820AC8213002BC3D0 /* dilutioncalculatorappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E933530020AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorappTests" */;
+			buildPhases = (
+				E93352E520AC8213002BC3D0 /* Sources */,
+				E93352E620AC8213002BC3D0 /* Frameworks */,
+				E93352E720AC8213002BC3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93352EB20AC8213002BC3D0 /* PBXTargetDependency */,
+			);
+			name = dilutioncalculatorappTests;
+			productName = dilutioncalculatorappTests;
+			productReference = E93352E920AC8213002BC3D0 /* dilutioncalculatorappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E93352F320AC8213002BC3D0 /* dilutioncalculatorappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E933530320AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorappUITests" */;
+			buildPhases = (
+				E93352F020AC8213002BC3D0 /* Sources */,
+				E93352F120AC8213002BC3D0 /* Frameworks */,
+				E93352F220AC8213002BC3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93352F620AC8213002BC3D0 /* PBXTargetDependency */,
+			);
+			name = dilutioncalculatorappUITests;
+			productName = dilutioncalculatorappUITests;
+			productReference = E93352F420AC8213002BC3D0 /* dilutioncalculatorappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93352CF20AC8211002BC3D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Benjamin Joye";
+				TargetAttributes = {
+					E93352D620AC8211002BC3D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					E93352E820AC8213002BC3D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = E93352D620AC8211002BC3D0;
+					};
+					E93352F320AC8213002BC3D0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = E93352D620AC8211002BC3D0;
+					};
+				};
+			};
+			buildConfigurationList = E93352D220AC8211002BC3D0 /* Build configuration list for PBXProject "dilutioncalculatorapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E93352CE20AC8211002BC3D0;
+			productRefGroup = E93352D820AC8211002BC3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93352D620AC8211002BC3D0 /* dilutioncalculatorapp */,
+				E93352E820AC8213002BC3D0 /* dilutioncalculatorappTests */,
+				E93352F320AC8213002BC3D0 /* dilutioncalculatorappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93352D520AC8211002BC3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93352DF20AC8212002BC3D0 /* Assets.xcassets in Resources */,
+				E93352E220AC8212002BC3D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352E720AC8213002BC3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352F220AC8213002BC3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93352D320AC8211002BC3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93352DD20AC8211002BC3D0 /* ViewController.swift in Sources */,
+				E93352DB20AC8211002BC3D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352E520AC8213002BC3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93352EE20AC8213002BC3D0 /* dilutioncalculatorappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93352F020AC8213002BC3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93352F920AC8213002BC3D0 /* dilutioncalculatorappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E93352EB20AC8213002BC3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E93352D620AC8211002BC3D0 /* dilutioncalculatorapp */;
+			targetProxy = E93352EA20AC8213002BC3D0 /* PBXContainerItemProxy */;
+		};
+		E93352F620AC8213002BC3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E93352D620AC8211002BC3D0 /* dilutioncalculatorapp */;
+			targetProxy = E93352F520AC8213002BC3D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E93352E020AC8212002BC3D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93352E120AC8212002BC3D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E93352FB20AC8213002BC3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Dilution Calculator";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E93352FC20AC8213002BC3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Dilution Calculator";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E93352FE20AC8213002BC3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dilutioncalculatorapp/dilutioncalculatorapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorapp;
+				PRODUCT_NAME = "Dilution Calcultor";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		E93352FF20AC8213002BC3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dilutioncalculatorapp/dilutioncalculatorapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorapp;
+				PRODUCT_NAME = "Dilution Calcultor";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E933530120AC8213002BC3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dilutioncalculatorapp.app/Contents/MacOS/dilutioncalculatorapp";
+			};
+			name = Debug;
+		};
+		E933530220AC8213002BC3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dilutioncalculatorapp.app/Contents/MacOS/dilutioncalculatorapp";
+			};
+			name = Release;
+		};
+		E933530420AC8213002BC3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = dilutioncalculatorapp;
+			};
+			name = Debug;
+		};
+		E933530520AC8213002BC3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dilutioncalculatorappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bpj.dilutioncalculatorappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = dilutioncalculatorapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93352D220AC8211002BC3D0 /* Build configuration list for PBXProject "dilutioncalculatorapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93352FB20AC8213002BC3D0 /* Debug */,
+				E93352FC20AC8213002BC3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93352FD20AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93352FE20AC8213002BC3D0 /* Debug */,
+				E93352FF20AC8213002BC3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E933530020AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E933530120AC8213002BC3D0 /* Debug */,
+				E933530220AC8213002BC3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E933530320AC8213002BC3D0 /* Build configuration list for PBXNativeTarget "dilutioncalculatorappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E933530420AC8213002BC3D0 /* Debug */,
+				E933530520AC8213002BC3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93352CF20AC8211002BC3D0 /* Project object */;
+}
